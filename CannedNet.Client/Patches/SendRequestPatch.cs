@@ -12,7 +12,7 @@ public class SendRequestPatch
         {
             Plugin.Log.LogInfo($"hi {request.Uri.Host}");
             
-            if (request.Uri.Host.ToString().Contains("ns.rec.net"))
+            if (request.Uri.Host.Contains("ns.rec.net"))
                 request.Uri = new Il2CppSystem.Uri(Plugin.ServerHostname.Value);
         }
     }

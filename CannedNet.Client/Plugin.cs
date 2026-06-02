@@ -42,7 +42,7 @@ public class Plugin : BasePlugin
     {
         if (scene.name == "ScreenAccountSelection" || scene.name == "VRAccountSelection")
         {
-            var cheatMgr = GameObject.Find("GameRoot/Startup/Core Systems/[CheatManager]");
+            var cheatMgr = GameObject.Find("GameRoot/(Startup)(Clone)/Core Systems/");
             if (cheatMgr != null)
             {
                 GameObject.Destroy(cheatMgr);

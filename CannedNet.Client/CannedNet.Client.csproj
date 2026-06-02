@@ -16,7 +16,7 @@
     </PropertyGroup>
   
     <PropertyGroup>
-        <GamePath>C:\Users\Lapis\Downloads\2021build</GamePath>
+        <GamePath>C:\Program Files (x86)\Steam\steamapps\content\app_471710\depot_471711</GamePath>
     </PropertyGroup>
 
     <ItemGroup>
@@ -34,11 +34,83 @@
       <Reference Include="AstarPathfindingProject">
         <HintPath>$(GamePath)\BepInEx\interop\AstarPathfindingProject.dll</HintPath>
       </Reference>
-      <Reference Include="Bitpacker">
-        <HintPath>$(GamePath)\BepInEx\interop\Bitpacker.dll</HintPath>
+      <Reference Include="Backtrace.Unity">
+        <HintPath>$(GamePath)\BepInEx\interop\Backtrace.Unity.dll</HintPath>
       </Reference>
-      <Reference Include="Circuits">
-        <HintPath>$(GamePath)\BepInEx\interop\Circuits.dll</HintPath>
+      <Reference Include="Circuits.All.Injection.Debugging">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.All.Injection.Debugging.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.All.Injection.PhotonNetSystem">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.All.Injection.PhotonNetSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.All.Injection.UnityEngine">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.All.Injection.UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.All.Mock">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.All.Mock.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.All.RecRoom">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.All.RecRoom.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Dynamic.Core.NetSystem">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Dynamic.Core.NetSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Dynamic.Mock">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Dynamic.Mock.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Shared.Core.ByteCode">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Shared.Core.ByteCode.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Shared.CV2.Dependencies">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Shared.CV2.Dependencies.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Shared.RecRoom.Engine">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Shared.RecRoom.Engine.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Shared.RecRoom.Objects">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Shared.RecRoom.Objects.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Shared.Utilities">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Shared.Utilities.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Static.Core.CompileSystem">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Static.Core.CompileSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Static.Core.GraphSystem">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Static.Core.GraphSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Static.Core.NetSystem">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Static.Core.NetSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Static.Core.RequestReduce">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Static.Core.RequestReduce.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Static.Core.TreeSystem">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Static.Core.TreeSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Static.Core.TypeCheckSystem">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Static.Core.TypeCheckSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Static.Core.TypeSystem">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Static.Core.TypeSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Static.Core.UnificationSystem">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Static.Core.UnificationSystem.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Static.EV">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Static.EV.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Static.RecRoom">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Static.RecRoom.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.Static.Utilities">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.Static.Utilities.dll</HintPath>
+      </Reference>
+      <Reference Include="Circuits.V2">
+        <HintPath>$(GamePath)\BepInEx\interop\Circuits.V2.dll</HintPath>
+      </Reference>
+      <Reference Include="Codestage.Anticheattoolkit.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\Codestage.Anticheattoolkit.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="CSCore">
         <HintPath>$(GamePath)\BepInEx\interop\CSCore.dll</HintPath>
@@ -52,6 +124,15 @@
       <Reference Include="ICSharpCode.SharpZipLib">
         <HintPath>$(GamePath)\BepInEx\interop\ICSharpCode.SharpZipLib.dll</HintPath>
       </Reference>
+      <Reference Include="Il2CppMicrosoft.Bcl.HashCode">
+        <HintPath>$(GamePath)\BepInEx\interop\Il2CppMicrosoft.Bcl.HashCode.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMicrosoft.CognitiveServices.Speech.csharp">
+        <HintPath>$(GamePath)\BepInEx\interop\Il2CppMicrosoft.CognitiveServices.Speech.csharp.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppMicrosoft.Toolkit.HighPerformance">
+        <HintPath>$(GamePath)\BepInEx\interop\Il2CppMicrosoft.Toolkit.HighPerformance.dll</HintPath>
+      </Reference>
       <Reference Include="Il2CppMono.Security">
         <HintPath>$(GamePath)\BepInEx\interop\Il2CppMono.Security.dll</HintPath>
       </Reference>
@@ -61,23 +142,56 @@
       <Reference Include="Il2CppSystem">
         <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.dll</HintPath>
       </Reference>
+      <Reference Include="Il2CppSystem.Buffers">
+        <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Buffers.dll</HintPath>
+      </Reference>
       <Reference Include="Il2CppSystem.Configuration">
         <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Configuration.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppSystem.Core">
         <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Core.dll</HintPath>
       </Reference>
+      <Reference Include="Il2CppSystem.Data">
+        <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Data.dll</HintPath>
+      </Reference>
       <Reference Include="Il2CppSystem.Drawing">
         <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Drawing.dll</HintPath>
       </Reference>
-      <Reference Include="Il2CppSystem.Runtime">
-        <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Runtime.dll</HintPath>
+      <Reference Include="Il2CppSystem.Memory">
+        <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Memory.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Numerics">
+        <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Numerics.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Numerics.Vectors">
+        <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Numerics.Vectors.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Runtime.CompilerServices.Unsafe">
+        <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Runtime.CompilerServices.Unsafe.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppSystem.Runtime.Serialization">
         <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Runtime.Serialization.dll</HintPath>
       </Reference>
       <Reference Include="Il2CppSystem.Xml">
         <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Xml.dll</HintPath>
+      </Reference>
+      <Reference Include="Il2CppSystem.Xml.Linq">
+        <HintPath>$(GamePath)\BepInEx\interop\Il2CppSystem.Xml.Linq.dll</HintPath>
+      </Reference>
+      <Reference Include="Kyub.EmojiSearch">
+        <HintPath>$(GamePath)\BepInEx\interop\Kyub.EmojiSearch.dll</HintPath>
+      </Reference>
+      <Reference Include="Logger.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\Logger.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="NewPlayerChallenges.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\NewPlayerChallenges.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Newtonsoft.Json">
+        <HintPath>$(GamePath)\BepInEx\interop\Newtonsoft.Json.dll</HintPath>
+      </Reference>
+      <Reference Include="Nito.Collections.Deque">
+        <HintPath>$(GamePath)\BepInEx\interop\Nito.Collections.Deque.dll</HintPath>
       </Reference>
       <Reference Include="Oculus.Platform">
         <HintPath>$(GamePath)\BepInEx\interop\Oculus.Platform.dll</HintPath>
@@ -93,7 +207,7 @@
       </Reference>
       <Reference Include="Pathfinding.Ionic.Zip.Reduced">
         <HintPath>$(GamePath)\BepInEx\interop\Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
-      </Reference> 
+      </Reference>
       <Reference Include="Pathfinding.Poly2Tri">
         <HintPath>$(GamePath)\BepInEx\interop\Pathfinding.Poly2Tri.dll</HintPath>
       </Reference>
@@ -121,17 +235,32 @@
       <Reference Include="PhotonVoice.PUN">
         <HintPath>$(GamePath)\BepInEx\interop\PhotonVoice.PUN.dll</HintPath>
       </Reference>
-      <Reference Include="PhotonWebSocket">
-        <HintPath>$(GamePath)\BepInEx\interop\PhotonWebSocket.dll</HintPath>
-      </Reference>
       <Reference Include="Pngcs">
         <HintPath>$(GamePath)\BepInEx\interop\Pngcs.dll</HintPath>
+      </Reference>
+      <Reference Include="RecNet.Interfaces">
+        <HintPath>$(GamePath)\BepInEx\interop\RecNet.Interfaces.dll</HintPath>
+      </Reference>
+      <Reference Include="RecNet.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecNet.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="RecRoom.Agdxgidisplays.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Agdxgidisplays.Runtime.dll</HintPath>
       </Reference>
+      <Reference Include="RecRoom.AgInitialization.Interfaces">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.AgInitialization.Interfaces.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.AgInitialization.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.AgInitialization.Runtime.dll</HintPath>
+      </Reference>
       <Reference Include="RecRoom.Agmobilear.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Agmobilear.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Analytics.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Analytics.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ApplicationLifecycle.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ApplicationLifecycle.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="RecRoom.Assetbundles.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Assetbundles.Runtime.dll</HintPath>
@@ -139,29 +268,152 @@
       <Reference Include="RecRoom.Async">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Async.dll</HintPath>
       </Reference>
-      <Reference Include="RecRoom.Circuitsv2.Runtime">
-        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Circuitsv2.Runtime.dll</HintPath>
+      <Reference Include="RecRoom.Attributes.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Attributes.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Audio.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Audio.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.AutomationTests.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.AutomationTests.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.BitPacker.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.BitPacker.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Build.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Build.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Challenges.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Challenges.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Chat.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Chat.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.CircuitsV1.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.CircuitsV1.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ClusterLods.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ClusterLods.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.CodeGen.Attributes">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.CodeGen.Attributes.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Commandline.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Commandline.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.CommonDataTypes.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.CommonDataTypes.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Configloader.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Configloader.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Connectables.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Connectables.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Content.Authoring.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Content.Authoring.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Creation.Interfaces.UX.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Creation.Interfaces.UX.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Creation.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Creation.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="RecRoom.CultureUtil.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.CultureUtil.Runtime.dll</HintPath>
       </Reference>
+      <Reference Include="RecRoom.Datastructures.CollisionMesh.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Datastructures.CollisionMesh.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Datastructures.CullingGroupManager.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Datastructures.CullingGroupManager.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Datastructures.OverridableFields.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Datastructures.OverridableFields.Runtime.dll</HintPath>
+      </Reference>
       <Reference Include="RecRoom.Datastructures.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Datastructures.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Datastructures.Singletons.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Datastructures.Singletons.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Debugging.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Debugging.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="RecRoom.EditorHelpers.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.EditorHelpers.Runtime.dll</HintPath>
       </Reference>
+      <Reference Include="RecRoom.Encoding.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Encoding.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Experiments.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Experiments.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.FastLines.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.FastLines.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.FuzzySearch.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.FuzzySearch.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.GameSystems.Interfaces">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.GameSystems.Interfaces.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Imageutils.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Imageutils.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Imposters.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Imposters.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Instantiation.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Instantiation.Runtime.dll</HintPath>
+      </Reference>
       <Reference Include="RecRoom.iOSNative.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.iOSNative.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.JuniorAccountVisibility.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.JuniorAccountVisibility.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Keepsakes.Interfaces">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Keepsakes.Interfaces.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Keepsakes.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Keepsakes.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Keepsakes.UnityExtensions">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Keepsakes.UnityExtensions.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Localization.Service">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Localization.Service.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Maker.Core.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Maker.Core.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Maker.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Maker.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.MemoryStats.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.MemoryStats.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Minijson.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Minijson.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.MobileHome.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.MobileHome.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Nativemesh.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Nativemesh.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="RecRoom.Networking.DataTypes.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Networking.DataTypes.Runtime.dll</HintPath>
       </Reference>
-      <Reference Include="RecRoom.Networking.Mocks">
-        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Networking.Mocks.dll</HintPath>
-      </Reference>
       <Reference Include="RecRoom.Networking.NetworkedObjects.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Networking.NetworkedObjects.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Networking.PhotonImpl.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Networking.PhotonImpl.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Networking.RoomLoading.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Networking.RoomLoading.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="RecRoom.Networking.RPC.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Networking.RPC.Runtime.dll</HintPath>
@@ -169,29 +421,194 @@
       <Reference Include="RecRoom.Networking.SynchronizedFields.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Networking.SynchronizedFields.Runtime.dll</HintPath>
       </Reference>
-      <Reference Include="RecRoom.ProBuilderExtensions">
-        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ProBuilderExtensions.dll</HintPath>
+      <Reference Include="RecRoom.NoEngine.Algorithms.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.NoEngine.Algorithms.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.NoEngine.Common.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.NoEngine.Common.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.NoEngine.DataStructures.Performance.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.NoEngine.DataStructures.Performance.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.NoEngine.DataStructures.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.NoEngine.DataStructures.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.NoEngine.Debugging.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.NoEngine.Debugging.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.NoEngine.JetBrains.Annotations">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.NoEngine.JetBrains.Annotations.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Attributes.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Attributes.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.BitPacker.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.BitPacker.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.ComponentData.Generated.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.ComponentData.Generated.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.ComponentData.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.ComponentData.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.ConfigUI.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.ConfigUI.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Entities.Core.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Entities.Core.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Entities.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Entities.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Interfaces.ConfigUI.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Interfaces.ConfigUI.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Interfaces.Prefabs.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Interfaces.Prefabs.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Interfaces.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Interfaces.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Prefabs.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Prefabs.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Properties.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Properties.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Protobufs.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Protobufs.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.RendererV1.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.RendererV1.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Services.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Services.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Systems.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Systems.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Telemetry.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Telemetry.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Transmission.PUN.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Transmission.PUN.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectModel.Transmission.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectModel.Transmission.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ObjectPool.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ObjectPool.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Persistence.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Persistence.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.PlatformNotifications.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.PlatformNotifications.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Preferences.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Preferences.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.PrefParsers.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.PrefParsers.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ProgressionEvents.Interfaces">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ProgressionEvents.Interfaces.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ProgressionEvents.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ProgressionEvents.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="RecRoom.Promises.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Promises.Runtime.dll</HintPath>
       </Reference>
+      <Reference Include="RecRoom.Protobuf.Debugging.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Protobuf.Debugging.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Protobuf.Extensions.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Protobuf.Extensions.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Protobuf.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Protobuf.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Protobuf.UnityExtensions.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Protobuf.UnityExtensions.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Rbex.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Rbex.Runtime.dll</HintPath>
+      </Reference>
       <Reference Include="RecRoom.ResourceManagement.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ResourceManagement.Runtime.dll</HintPath>
       </Reference>
-      <Reference Include="RecRoom.Scheduler.Runtime">
-        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Scheduler.Runtime.dll</HintPath>
+      <Reference Include="RecRoom.RoomLoading.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.RoomLoading.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.RoomPermissions.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.RoomPermissions.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Rranticheat.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Rranticheat.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.RRUI.Core.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.RRUI.Core.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.RRUI.Data.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.RRUI.Data.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.RRUI.Navigation.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.RRUI.Navigation.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.RRUI.Theme.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.RRUI.Theme.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Scheduling.Interface.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Scheduling.Interface.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Scheduling.Scheduler.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Scheduling.Scheduler.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Scheduling.Schedules.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Scheduling.Schedules.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.ShapeRendering.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.ShapeRendering.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="RecRoom.Streamingaudio.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Streamingaudio.Runtime.dll</HintPath>
       </Reference>
-      <Reference Include="RecRoom.Tmp_overrides.Runtime">
-        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Tmp_overrides.Runtime.dll</HintPath>
+      <Reference Include="RecRoom.Studio.Common.LocalTesting">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Studio.Common.LocalTesting.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Studio.Common.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Studio.Common.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.TagsAndLayers.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.TagsAndLayers.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Time.Interfaces">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Time.Interfaces.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Time.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Time.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="RecRoom.Tweening.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Tweening.Runtime.dll</HintPath>
       </Reference>
+      <Reference Include="RecRoom.UIInteraction.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.UIInteraction.Runtime.dll</HintPath>
+      </Reference>
       <Reference Include="RecRoom.Unityextensions.Runtime">
         <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Unityextensions.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.UrlHandler.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.UrlHandler.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Utf8json.Interfaces">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Utf8json.Interfaces.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Utf8json.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Utf8json.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="RecRoom.Versioning.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\RecRoom.Versioning.Runtime.dll</HintPath>
       </Reference>
       <Reference Include="SA.Foundation">
         <HintPath>$(GamePath)\BepInEx\interop\SA.Foundation.dll</HintPath>
@@ -199,20 +616,41 @@
       <Reference Include="SA.Foundation.Network">
         <HintPath>$(GamePath)\BepInEx\interop\SA.Foundation.Network.dll</HintPath>
       </Reference>
-      <Reference Include="SA.Foundation.Tests">
-        <HintPath>$(GamePath)\BepInEx\interop\SA.Foundation.Tests.dll</HintPath>
-      </Reference>
       <Reference Include="SA.iOS">
         <HintPath>$(GamePath)\BepInEx\interop\SA.iOS.dll</HintPath>
       </Reference>
       <Reference Include="SA.iOS.XCode">
         <HintPath>$(GamePath)\BepInEx\interop\SA.iOS.XCode.dll</HintPath>
       </Reference>
+      <Reference Include="Singular">
+        <HintPath>$(GamePath)\BepInEx\interop\Singular.dll</HintPath>
+      </Reference>
+      <Reference Include="StansAssets.Foundation">
+        <HintPath>$(GamePath)\BepInEx\interop\StansAssets.Foundation.dll</HintPath>
+      </Reference>
+      <Reference Include="StansAssets.Plugins">
+        <HintPath>$(GamePath)\BepInEx\interop\StansAssets.Plugins.dll</HintPath>
+      </Reference>
+      <Reference Include="StatsigUnity.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\StatsigUnity.Runtime.dll</HintPath>
+      </Reference>
       <Reference Include="SteamVR">
         <HintPath>$(GamePath)\BepInEx\interop\SteamVR.dll</HintPath>
       </Reference>
       <Reference Include="SteamVR_Actions">
         <HintPath>$(GamePath)\BepInEx\interop\SteamVR_Actions.dll</HintPath>
+      </Reference>
+      <Reference Include="TextureTool.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\TextureTool.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="ToxMod">
+        <HintPath>$(GamePath)\BepInEx\interop\ToxMod.dll</HintPath>
+      </Reference>
+      <Reference Include="UJect.Runtime">
+        <HintPath>$(GamePath)\BepInEx\interop\UJect.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="UJect.UnityExtensions">
+        <HintPath>$(GamePath)\BepInEx\interop\UJect.UnityExtensions.dll</HintPath>
       </Reference>
       <Reference Include="Unity.Addressables">
         <HintPath>$(GamePath)\BepInEx\interop\Unity.Addressables.dll</HintPath>
@@ -226,14 +664,26 @@
       <Reference Include="Unity.Collections">
         <HintPath>$(GamePath)\BepInEx\interop\Unity.Collections.dll</HintPath>
       </Reference>
+      <Reference Include="Unity.Entities">
+        <HintPath>$(GamePath)\BepInEx\interop\Unity.Entities.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.InputSystem">
+        <HintPath>$(GamePath)\BepInEx\interop\Unity.InputSystem.dll</HintPath>
+      </Reference>
       <Reference Include="Unity.Jobs">
         <HintPath>$(GamePath)\BepInEx\interop\Unity.Jobs.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.Localization">
+        <HintPath>$(GamePath)\BepInEx\interop\Unity.Localization.dll</HintPath>
       </Reference>
       <Reference Include="Unity.Mathematics">
         <HintPath>$(GamePath)\BepInEx\interop\Unity.Mathematics.dll</HintPath>
       </Reference>
-      <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>$(GamePath)\BepInEx\interop\Unity.Postprocessing.Runtime.dll</HintPath>
+      <Reference Include="Unity.ProBuilder">
+        <HintPath>$(GamePath)\BepInEx\interop\Unity.ProBuilder.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.Properties">
+        <HintPath>$(GamePath)\BepInEx\interop\Unity.Properties.dll</HintPath>
       </Reference>
       <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
         <HintPath>$(GamePath)\BepInEx\interop\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
@@ -247,6 +697,9 @@
       <Reference Include="Unity.ResourceManager">
         <HintPath>$(GamePath)\BepInEx\interop\Unity.ResourceManager.dll</HintPath>
       </Reference>
+      <Reference Include="Unity.Serialization">
+        <HintPath>$(GamePath)\BepInEx\interop\Unity.Serialization.dll</HintPath>
+      </Reference>
       <Reference Include="Unity.TextMeshPro">
         <HintPath>$(GamePath)\BepInEx\interop\Unity.TextMeshPro.dll</HintPath>
       </Reference>
@@ -258,6 +711,15 @@
       </Reference>
       <Reference Include="Unity.XR.Management">
         <HintPath>$(GamePath)\BepInEx\interop\Unity.XR.Management.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.XR.Oculus">
+        <HintPath>$(GamePath)\BepInEx\interop\Unity.XR.Oculus.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.XR.OpenVR">
+        <HintPath>$(GamePath)\BepInEx\interop\Unity.XR.OpenVR.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.XR.PSVR">
+        <HintPath>$(GamePath)\BepInEx\interop\Unity.XR.PSVR.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.dll</HintPath>
@@ -273,9 +735,6 @@
       </Reference>
       <Reference Include="UnityEngine.AnimationModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.AnimationModule.dll</HintPath>
-      </Reference>
-      <Reference Include="UnityEngine.ARModule">
-        <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.ARModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.AssetBundleModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.AssetBundleModule.dll</HintPath>
@@ -306,6 +765,9 @@
       </Reference>
       <Reference Include="UnityEngine.GameCenterModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.GameCenterModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.GIModule">
+        <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.GIModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.GridModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.GridModule.dll</HintPath>
@@ -345,6 +807,9 @@
       </Reference>
       <Reference Include="UnityEngine.ProfilerModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.ProfilerModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+        <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.ScreenCaptureModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.ScreenCaptureModule.dll</HintPath>
@@ -394,6 +859,9 @@
       <Reference Include="UnityEngine.UIElementsModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.UIElementsModule.dll</HintPath>
       </Reference>
+      <Reference Include="UnityEngine.UIElementsNativeModule">
+        <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.UIElementsNativeModule.dll</HintPath>
+      </Reference>
       <Reference Include="UnityEngine.UIModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.UIModule.dll</HintPath>
       </Reference>
@@ -408,6 +876,9 @@
       </Reference>
       <Reference Include="UnityEngine.UnityConnectModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.UnityConnectModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UnityCurlModule">
+        <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.UnityCurlModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.UnityTestProtocolModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.UnityTestProtocolModule.dll</HintPath>
@@ -436,14 +907,14 @@
       <Reference Include="UnityEngine.VideoModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.VideoModule.dll</HintPath>
       </Reference>
+      <Reference Include="UnityEngine.VirtualTexturingModule">
+        <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.VirtualTexturingModule.dll</HintPath>
+      </Reference>
       <Reference Include="UnityEngine.VRModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.VRModule.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.WindModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.WindModule.dll</HintPath>
-      </Reference>
-      <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
       </Reference>
       <Reference Include="UnityEngine.XRModule">
         <HintPath>$(GamePath)\BepInEx\interop\UnityEngine.XRModule.dll</HintPath>

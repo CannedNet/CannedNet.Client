@@ -40,7 +40,7 @@ public class Plugin : BasePlugin
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name == "ScreenAccountSelection" || scene.name == "VRAccountSelection")
+        if (scene.name == "TitleScreen")
         {
             var cheatMgr = GameObject.Find("GameRoot/(Startup)(Clone)/Core Systems/[CheatManager]");
             if (cheatMgr != null)

@@ -16,7 +16,7 @@
     </PropertyGroup>
   
     <PropertyGroup>
-        <GamePath>C:\Program Files (x86)\Steam\steamapps\content\app_471710\depot_471711</GamePath>
+        <GamePath>C:\Program Files (x86)\Steam\steamapps\content\app_471710\cannednet2023</GamePath>
     </PropertyGroup>
 
     <ItemGroup>

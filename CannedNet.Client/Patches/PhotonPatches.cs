@@ -55,15 +55,33 @@ public class Photon_AppSettings_Patch
     private static void Postfix(ref AppSettings __result)
     {
         Plugin.Log.LogInfo("okay im patching now");
-        __result = new()
+        if (Plugin.EnableAdvancedSettings.Value)
         {
-            AppVersion = __result?.AppVersion,
-            AppIdRealtime = Plugin.AppIdRT.Value,
-            AppIdVoice = Plugin.AppIdVoice.Value,
-            AppIdChat = Plugin.AppIdChat.Value,
-            FixedRegion = "us",
-            UseNameServer = true,
-            Protocol = ConnectionProtocol.Udp,
-        };
+            __result = new()
+            {
+                AppVersion = __result?.AppVersion,
+                AppIdRealtime = "",
+                AppIdVoice = "",
+                AppIdChat = "",
+                FixedRegion = "eu",
+                UseNameServer = true,
+                Protocol = ConnectionProtocol.Udp,
+                Server = Plugin.PhotonHostname.Value,
+                Port = Plugin.PhotonPort.Value == 0 ? 58913 : Plugin.PhotonPort.Value
+            };
+        }
+        else
+        {
+            __result = new()
+            {
+                AppVersion = __result?.AppVersion,
+                AppIdRealtime = Plugin.AppIdRT.Value,
+                AppIdVoice = Plugin.AppIdVoice.Value,
+                AppIdChat = Plugin.AppIdChat.Value,
+                FixedRegion = "us",
+                UseNameServer = true,
+                Protocol = ConnectionProtocol.Udp
+            };   
+        }
     }
 }

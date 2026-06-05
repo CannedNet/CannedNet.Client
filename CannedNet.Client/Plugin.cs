@@ -23,6 +23,9 @@ public class Plugin : BasePlugin
     public static ConfigEntry<string> AppIdVoice { get; private set; }
     public static ConfigEntry<string> AppIdChat { get; private set; }
     public static ConfigEntry<string> ServerHostname { get; private set; }
+    public static ConfigEntry<bool> EnableAdvancedSettings { get; private set; }
+    public static ConfigEntry<string> PhotonHostname { get; private set; }
+    public static ConfigEntry<int> PhotonPort { get; private set; }
 
     public override void Load()
     {
@@ -31,7 +34,10 @@ public class Plugin : BasePlugin
         AppIdRT = Config.Bind("Photon", "App Id Realtime", "", "Photon Realtime App ID");
         AppIdVoice = Config.Bind("Photon", "App Id Voice", "", "Photon Voice App ID");
         AppIdChat = Config.Bind("Photon", "App Id Chat", "", "Photon Chat App ID");
-        ServerHostname = Config.Bind("Server", "NameServer Host", "https://ns.lapis.codes", "Host for the NameServer.");
+        EnableAdvancedSettings = Config.Bind("Advanced", "Enabled Advanced Settings", false, "Allows other fields below in the advanced section to be modified.");
+        PhotonHostname = Config.Bind("Advanced", "Photon NameServer", "", "Custom Photon NameServer");
+        PhotonPort = Config.Bind("Advanced", "Photon NameServer Port", 0, "Custom Photon NameServer Port (if 0, it will be default)");
+        ServerHostname = Config.Bind("Server", "RecNet NameServer Host", "https://ns.lapis.codes", "Host for the RecNet NameServer.");
 
         Harmony.CreateAndPatchAll(typeof(Plugin).Assembly);
         

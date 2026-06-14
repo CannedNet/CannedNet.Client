@@ -30,7 +30,7 @@ public class Plugin : BasePlugin
     public override void Load()
     {
         Log = base.Log;
-        
+
         AppIdRT = Config.Bind("Photon", "App Id Realtime", "", "Photon Realtime App ID");
         AppIdVoice = Config.Bind("Photon", "App Id Voice", "", "Photon Voice App ID");
         AppIdChat = Config.Bind("Photon", "App Id Chat", "", "Photon Chat App ID");
@@ -40,7 +40,7 @@ public class Plugin : BasePlugin
         ServerHostname = Config.Bind("Server", "RecNet NameServer Host", "https://ns.lapis.codes", "Host for the RecNet NameServer.");
 
         Harmony.CreateAndPatchAll(typeof(Plugin).Assembly);
-        
+
         SceneManager.sceneLoaded += (Action<Scene, LoadSceneMode>)OnSceneLoaded;
     }
 
@@ -54,4 +54,3 @@ public class Plugin : BasePlugin
         }
     }
 }
-

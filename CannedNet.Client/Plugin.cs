@@ -46,11 +46,14 @@ public class Plugin : BasePlugin
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        var cheatMgr = GameObject.Find("GameRoot/(Startup)(Clone)/Core Systems/[CheatManager]");
-        if (cheatMgr != null)
+        if (scene.name != "TitleScreen")
         {
-            GameObject.Destroy(cheatMgr);
-            Log.LogInfo("cheatmanager destroyed");
+            var cheatMgr = GameObject.Find("GameRoot/(Startup)(Clone)/Core Systems/[CheatManager]");
+            if (cheatMgr != null)
+            {
+                GameObject.Destroy(cheatMgr);
+                Log.LogInfo("cheatmanager destroyed");
+            }
         }
     }
 }

@@ -46,7 +46,7 @@ public class Plugin : BasePlugin
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name != "TitleScreen")
+        if (scene.name != "TitleScreen" && scene.name != "empty")
         {
             var cheatMgr = GameObject.Find("GameRoot/(Startup)(Clone)/Core Systems/[CheatManager]");
             if (cheatMgr != null)

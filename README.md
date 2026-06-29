@@ -14,7 +14,7 @@ It does this entirely client-side with [Harmony](https://harmony.pardeike.net/) 
 | Photon override | `Patches/PhotonPatches.cs` | Replaces the Realtime / Voice / Chat App IDs (and optionally the Photon name server + port) with your own. |
 | EAC bypass | `Patches/EACPatches.cs` | Forces EasyAntiCheat "ready" and stubs the challenge-response so the client connects without the official anti-cheat. |
 | TLS bypass | `Patches/FuckOffTLS.cs` | Skips server-certificate validation so a custom server's cert is accepted. |
-| Promise stub | `Patches/PromisePatch.cs` | ??? |
+| Promise stub | `Patches/PromisePatch.cs` | Allows custom global-metadata.dat files without the game crashing. |
 | CheatManager handling | `Plugin.cs` | Deactivates the in-game `CheatManager` (which would otherwise boot you from rooms) while keeping it resolvable for account creation / login. |
 
 ## Requirements

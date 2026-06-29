@@ -89,4 +89,4 @@ On first run the plugin generates a config file at
 
 ## License
 
-No license specified.
+[MIT](LICENSE) © Lapis

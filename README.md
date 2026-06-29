@@ -80,12 +80,12 @@ On first run the plugin generates a config file at
 
 ## Project layout
 
-```
-Plugin.cs              Plugin entry point, config bindings, Harmony bootstrap
-Patches/               Harmony patches (networking, EAC, TLS, Photon)
-CannedNet.Client.csproj Build config + interop references (driven by GamePath)
-GamePath.props.example  Template for your local GamePath.props
-```
+| Path | Purpose |
+| --- | --- |
+| `Plugin.cs` | Plugin entry point, config bindings, Harmony bootstrap |
+| `Patches/` | Harmony patches (networking, EAC, TLS, Photon) |
+| `CannedNet.Client.csproj` | Build config + interop references (driven by `GamePath`), and the `DeployPlugin` post-build copy |
+| `GamePath.props.example` | Template for your local `GamePath.props` |
 
 ## License
 

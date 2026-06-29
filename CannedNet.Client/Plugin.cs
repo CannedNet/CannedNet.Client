@@ -46,14 +46,18 @@ public class Plugin : BasePlugin
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        if (scene.name != "TitleScreen" && scene.name != "empty")
+        // CheatManager boots us out of rooms when it runs, but it's ALSO the DUID service the DI
+        // container resolves for account creation / login (destroying it removes that service).
+        // So instead of destroying it, *deactivate* the GameObject: it stops running (no Update /
+        // coroutines, so no boot) while the component still exists, so the DI container can still
+        // resolve PGECJHKNIEN and call its DUID methods. It's recreated per scene, so deactivate
+        // each freshly-spawned (active) instance on every load. (GameObject.Find only returns active
+        // objects, so once deactivated it isn't found again.)
+        var cheatMgr = GameObject.Find("GameRoot/(Startup)(Clone)/Core Systems/[CheatManager]");
+        if (cheatMgr != null)
         {
-            var cheatMgr = GameObject.Find("GameRoot/(Startup)(Clone)/Core Systems/[CheatManager]");
-            if (cheatMgr != null)
-            {
-                GameObject.Destroy(cheatMgr);
-                Log.LogInfo("cheatmanager destroyed");
-            }
+            cheatMgr.SetActive(false);
+            Log.LogInfo("cheatmanager deactivated");
         }
     }
 }

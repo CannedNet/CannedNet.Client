@@ -55,6 +55,16 @@ public class Plugin : BasePlugin
                 Log.LogInfo("cheatmanager destroyed");
             }
         }
+        if (scene.name == "reccenter")
+        {
+            var MarqueeWhateverTheFuck = GameObject.Find("DynamicObjects/[RecCenter_Marquee]");
+            if (MarqueeWhateverTheFuck != null)
+        {
+            MarqueeWhateverTheFuck.transform.GetChild(0).GetComponent<TextMesh>().text = "     Is this thing on?";
+            MarqueeWhateverTheFuck.transform.GetChild(1).GetComponent<TextMesh>().text = "              Hello?";
+            Log.LogInfo("Rec Center theatre text changed LOL");
+        }
     }
+}
 }
 

@@ -2,7 +2,9 @@ using System;
 using System.Reflection;
 using ExitGames.Client.Photon;
 using HarmonyLib;
+using Photon.Pun;
 using Photon.Realtime;
+using Photon.Voice.PUN;
 
 namespace CannedNet.Client.Patches;
 
@@ -48,7 +50,7 @@ public class Photon_AppSettings_Patch
                 if (type != null) break;
             }
         }
-
+        
         return type?.GetMethod("FJOLIPKKIBE", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance);
     }
 
@@ -60,14 +62,13 @@ public class Photon_AppSettings_Patch
             __result = new()
             {
                 AppVersion = __result?.AppVersion,
-                AppIdRealtime = "",
-                AppIdVoice = "",
-                AppIdChat = "",
-                FixedRegion = "eu",
+                AppIdRealtime = Plugin.AppIdRT.Value,
+                AppIdVoice = Plugin.AppIdVoice.Value,
+                AppIdChat = Plugin.AppIdChat.Value,
+                FixedRegion = "us",
                 UseNameServer = true,
                 Protocol = ConnectionProtocol.Udp,
-                Server = Plugin.PhotonHostname.Value,
-                Port = Plugin.PhotonPort.Value == 0 ? 58913 : Plugin.PhotonPort.Value
+                Server = Plugin.PhotonHostname.Value
             };
         }
         else

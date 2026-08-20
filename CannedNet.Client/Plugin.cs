@@ -1,5 +1,8 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
 using System.Text.Json;
 using BepInEx;
 using BepInEx.Configuration;
@@ -7,6 +10,8 @@ using BepInEx.Logging;
 using BepInEx.Unity.IL2CPP;
 using BepInEx.Unity.IL2CPP.Utils.Collections;
 using HarmonyLib;
+using Il2CppInterop.Runtime.Injection;
+using Photon.Voice.PUN;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -40,6 +45,20 @@ public class Plugin : BasePlugin
         ServerHostname = Config.Bind("Server", "RecNet NameServer Host", "https://ns.lapis.codes", "Host for the RecNet NameServer.");
 
         Harmony.CreateAndPatchAll(typeof(Plugin).Assembly);
+        
+        MethodInfo registerMethod = typeof(ClassInjector)
+            .GetMethods(BindingFlags.Public | BindingFlags.Static)
+            .FirstOrDefault(m => m.Name == "RegisterTypeInIl2Cpp" && m.IsGenericMethodDefinition);
+
+        IEnumerable<Type> il2cppTypes = Assembly.GetExecutingAssembly().GetTypes()
+            .Where(t => t.IsClass && !t.IsAbstract && t.IsSubclassOf(typeof(MonoBehaviour)))
+            .Where(t => t.Namespace == "CannedNet.Client")
+            .Where(t => t.GetConstructor(new[] { typeof(IntPtr) }) != null);
+
+        foreach (Type type in il2cppTypes)
+        {
+            registerMethod?.MakeGenericMethod(type).Invoke(null, null);
+        }
         
         SceneManager.sceneLoaded += (Action<Scene, LoadSceneMode>)OnSceneLoaded;
     }
